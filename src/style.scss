@@ -1,10 +1,11 @@
+@import "partial/_variables";
+@import "partial/_mixins";
 @import "partial/_common";
+@import "partial/_header";
+@import "partial/_nav";
 
-header {
-  height: 95px;
-  background-color: #101010;
-  color: white;
-}
+
+
 #section_1 {
   height: 460px;
   background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");

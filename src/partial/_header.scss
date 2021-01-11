@@ -1,0 +1,28 @@
+header {
+  height: $headerHeight;
+  background-color: $headerColor;
+  color: white;
+  #header_top {
+    height: $header_topHeight;
+    ul {
+      float: right;
+      @include clearList;
+      li {
+        line-height: 45px;
+        margin-left: 25px;
+        a {
+          font-size: 12px;
+          color: $header_topIconColor;
+          &:hover {
+            cursor: pointer;
+            color: white;
+          }
+          i {
+            color: $header_topListColor;
+            margin-right: 5px;
+          }
+        }
+      }
+    }
+  }
+}

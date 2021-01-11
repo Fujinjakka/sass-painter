@@ -1,0 +1,38 @@
+nav {
+  height: $navHeight;
+  img {
+    max-width: 120px;
+    padding: 8px 15px;
+    float: left;
+    color: $nav_iconColor;
+    font-size: 18px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  ul {
+    float: left;
+    @include clearList;
+    li {
+      line-height: 50px;
+      &:hover {
+        background-color: white;
+      }
+      &:hover > a {
+        color: black;
+      }
+      a {
+        color: white;
+        padding-left: 25px;
+        padding-right: 25px;
+        font-size: 14px;
+        i {
+          font-size: 10px;
+          font-weight: lighter;
+          color: $nav_iconColor;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}
